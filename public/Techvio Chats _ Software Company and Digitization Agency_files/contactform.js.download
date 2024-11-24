@@ -2,19 +2,19 @@ jQuery(document).ready(function($) {
   "use strict";
 
   //Contact
-  $('form.contactForm').submit(function() {
-    var f = $(this).find('.form-group'),
+  $(&aposform.contactForm&apos).submit(function() {
+    var f = $(this).find(&apos.form-group&apos),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 
-    f.children('input').each(function() { // run all inputs
+    f.children(&aposinput&apos).each(function() { // run all inputs
 
       var i = $(this); // current input
-      var rule = i.attr('data-rule');
+      var rule = i.attr(&aposdata-rule&apos);
 
       if (rule !== undefined) {
         var ierror = false; // error flag for current input
-        var pos = rule.indexOf(':', 0);
+        var pos = rule.indexOf(&apos:&apos, 0);
         if (pos >= 0) {
           var exp = rule.substr(pos + 1, rule.length);
           rule = rule.substr(0, pos);
@@ -23,48 +23,48 @@ jQuery(document).ready(function($) {
         }
 
         switch (rule) {
-          case 'required':
-            if (i.val() === '') {
+          case &aposrequired&apos:
+            if (i.val() === &apos&apos) {
               ferror = ierror = true;
             }
             break;
 
-          case 'minlen':
+          case &aposminlen&apos:
             if (i.val().length < parseInt(exp)) {
               ferror = ierror = true;
             }
             break;
 
-          case 'email':
+          case &aposemail&apos:
             if (!emailExp.test(i.val())) {
               ferror = ierror = true;
             }
             break;
 
-          case 'checked':
-            if (! i.is(':checked')) {
+          case &aposchecked&apos:
+            if (! i.is(&apos:checked&apos)) {
               ferror = ierror = true;
             }
             break;
 
-          case 'regexp':
+          case &aposregexp&apos:
             exp = new RegExp(exp);
             if (!exp.test(i.val())) {
               ferror = ierror = true;
             }
             break;
         }
-        i.next('.validation').html((ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
+        i.next(&apos.validation&apos).html((ierror ? (i.attr(&aposdata-msg&apos) !== undefined ? i.attr(&aposdata-msg&apos) : &aposwrong Input&apos) : &apos&apos)).show(&aposblind&apos);
       }
     });
-    f.children('textarea').each(function() { // run all inputs
+    f.children(&apostextarea&apos).each(function() { // run all inputs
 
       var i = $(this); // current input
-      var rule = i.attr('data-rule');
+      var rule = i.attr(&aposdata-rule&apos);
 
       if (rule !== undefined) {
         var ierror = false; // error flag for current input
-        var pos = rule.indexOf(':', 0);
+        var pos = rule.indexOf(&apos:&apos, 0);
         if (pos >= 0) {
           var exp = rule.substr(pos + 1, rule.length);
           rule = rule.substr(0, pos);
@@ -73,26 +73,26 @@ jQuery(document).ready(function($) {
         }
 
         switch (rule) {
-          case 'required':
-            if (i.val() === '') {
+          case &aposrequired&apos:
+            if (i.val() === &apos&apos) {
               ferror = ierror = true;
             }
             break;
 
-          case 'minlen':
+          case &aposminlen&apos:
             if (i.val().length < parseInt(exp)) {
               ferror = ierror = true;
             }
             break;
         }
-        i.next('.validation').html((ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
+        i.next(&apos.validation&apos).html((ierror ? (i.attr(&aposdata-msg&apos) != undefined ? i.attr(&aposdata-msg&apos) : &aposwrong Input&apos) : &apos&apos)).show(&aposblind&apos);
       }
     });
     if (ferror) return false;
     else var str = $(this).serialize();
-    var action = $(this).attr('action');
+    var action = $(this).attr(&aposaction&apos);
     if( ! action ) {
-      action = 'contactform/contactform.php';
+      action = &aposcontactform/contactform.php&apos;
     }
     $.ajax({
       type: "POST",
@@ -100,14 +100,14 @@ jQuery(document).ready(function($) {
       data: str,
       success: function(msg) {
         // alert(msg);
-        if (msg == 'OK') {
+        if (msg == &aposOK&apos) {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
-          $('.contactForm').find("input, textarea").val("");
+          $(&apos.contactForm&apos).find("input, textarea").val("");
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
+          $(&apos#errormessage&apos).html(msg);
         }
 
       }

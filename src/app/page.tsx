@@ -70,7 +70,7 @@ export default function Home() {
     <div className="container">
       <div className="logo float-left">
         <a href="https://techviochats.vercel.app/#header" className="scrollto">
-          <img
+          <Image
             style={{ margin: 0 }}
             width={110}
             src="./Techvio Chats _ Software Company and Digitization Agency_files/logo.png"
@@ -116,20 +116,20 @@ export default function Home() {
           </h2>
           <p style={{ marginTop: "-30px" }}>
             We helps businesses to supercharge thier sales and leads via AI
-            automation's and Chatbot solutions.{" "}
+            automations and Chatbot solutions.{" "}
           </p>
           <div>
-            <img
+            <Image
               height={60}
               src="./Techvio Chats _ Software Company and Digitization Agency_files/incubation.jpg"
               alt=""
             />{" "}
-            <img
+            <Image
               height={60}
               src="./Techvio Chats _ Software Company and Digitization Agency_files/nep.png"
               alt=""
             />
-            <img
+            <Image
               style={{ marginLeft: 10 }}
               height={60}
               src="./Techvio Chats _ Software Company and Digitization Agency_files/nic.png"
@@ -146,7 +146,7 @@ export default function Home() {
           </div>
         </div>
         <div className="col-md-6 intro-img order-md-last order-first">
-          <img
+          <Image
             src="./Techvio Chats _ Software Company and Digitization Agency_files/slide.png"
             alt=""
             className="img-fluid"
@@ -165,7 +165,7 @@ About Us Section
         <div className="row">
           <div className="col-lg-5 col-md-6">
             <div className="about-img">
-              <img
+              <Image
                 src="./Techvio Chats _ Software Company and Digitization Agency_files/about-img.jpg"
                 alt=""
               />
@@ -178,13 +178,13 @@ About Us Section
                 We can build a much brighter future where humans are relieved of
                 menial work using AI capabilities.
               </h3>
-              {/* <p>What sets us apart is our unwavering commitment to your success. We don't just offer solutions; we become your strategic partner in growth. Our team of experts collaborates closely with you to understand your unique needs, tailoring AI automation and Chatbot solutions that align with your goals.</p> */}
+              {/* <p>What sets us apart is our unwavering commitment to your success. We don&apost just offer solutions; we become your strategic partner in growth. Our team of experts collaborates closely with you to understand your unique needs, tailoring AI automation and Chatbot solutions that align with your goals.</p> */}
               <p>
                 In a world where customer expectations are rapidly evolving,
-                embracing AI automation isn't just an option – it's a necessity.
+                embracing AI automation isn&apost just an option – it&aposs a necessity.
                 Join us at [Your Company Name] and witness firsthand how
                 AI-driven transformation can supercharge your sales and leads.
-                Together, let's redefine success in the age of AI.
+                Together, let&aposs redefine success in the age of AI.
               </p>
               <ul>
                 <li>
@@ -197,7 +197,7 @@ About Us Section
                 <li>
                   <i className="ion-android-checkmark-circle" />{" "}
                   <b> Personalization:</b>We help Businesses can use generative
-                  AI to tailor content to individual customers' preferences and
+                  AI to tailor content to individual customers&apos preferences and
                   behaviors, creating a more personalized experience that
                   resonates with their target audience.
                 </li>
@@ -431,7 +431,7 @@ Why Us Section
         <div className="row">
           <div className="col-lg-6">
             <div className="why-us-img">
-              <img
+              <Image
                 src="./Techvio Chats _ Software Company and Digitization Agency_files/why-us.jpg"
                 alt=""
                 className="img-fluid"
@@ -459,9 +459,9 @@ Why Us Section
                 <i className="fa fa-diamond" style={{ color: "#f058dc" }} />
                 <h4>Build once, Deploy on Multiple</h4>
                 <p>
-                  Build once, Deploy on Multiple' approach. Craft tailored AI
+                  Build once, Deploy on Multiple&apos approach. Craft tailored AI
                   solutions that seamlessly adapt to various platforms and
-                  applications. Whether it's chatbots, data analysis, or
+                  applications. Whether it&aposs chatbots, data analysis, or
                   customer engagement, our strategy ensures efficient
                   development and easy deployment across multiple touchpoints,
                   maximizing your AI investment and accelerating your business
@@ -568,7 +568,7 @@ Features Section
             className="col-lg-6 wow fadeInUp"
             style={{ visibility: "visible", animationName: "fadeInUp" }}
           >
-            <img
+            <Image
               src="./Techvio Chats _ Software Company and Digitization Agency_files/dialogflow-actions.png"
               className="img-fluid"
               alt="From Support Board website"
@@ -585,8 +585,8 @@ Features Section
               world. This can be done easily in just a few minutes.01
             </p>
             <p>
-              The bot is a virtual agent that replies autonomously to visitors'
-              messages when it knows the right answer. When it can't access the
+              The bot is a virtual agent that replies autonomously to visitors&apos
+              messages when it knows the right answer. When it can&apost access the
               correct response, a human agent will reply and take control of the
               conversation.
               {/* Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum. */}
@@ -598,7 +598,7 @@ Features Section
             className="col-lg-6 wow fadeInUp order-1 order-lg-2"
             style={{ visibility: "visible", animationName: "fadeInUp" }}
           >
-            <img
+            <Image
               src="./Techvio Chats _ Software Company and Digitization Agency_files/whatsapp.png"
               className="img-fluid"
               alt="From Support board website"
@@ -636,7 +636,7 @@ Features Section
             className="col-lg-6 wow fadeInUp"
             style={{ visibility: "visible", animationName: "fadeInUp" }}
           >
-            <img
+            <Image
               src="./Techvio Chats _ Software Company and Digitization Agency_files/Canales_botslovers.png"
               className="img-fluid"
               alt="From Support Board website"
@@ -651,17 +651,17 @@ Features Section
               channels with a chatbot..
             </h4>
             <p>
-              The bot is a virtual agent that replies autonomously to visitors'
-              messages when it knows the right answer. When it can't access the
+              The bot is a virtual agent that replies autonomously to visitors&apos
+              messages when it knows the right answer. When it can&apost access the
               correct response, a human agent will reply and take control of the
               conversation.
             </p>
             <p>
               Qualify Leads Without Forms No more static forms are needed to
-              access the user's details. The bot will do all the heavy-lifting
+              access the user&aposs details. The bot will do all the heavy-lifting
               instead. With the help of Rich Messages, the bot can ask the user
               for their email and more in a human, conversational way.
-              {/* The bot is a virtual agent that replies autonomously to visitors' messages when it knows the right answer. When it can't access the correct response, a human agent will reply and take control of the conversation.   Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum. */}
+              {/* The bot is a virtual agent that replies autonomously to visitors&apos messages when it knows the right answer. When it can&apost access the correct response, a human agent will reply and take control of the conversation.   Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum. */}
             </p>
             <p>
               Sell more with a chatbot. Automate your placing order process, or
@@ -851,7 +851,7 @@ Clients Section
                 >
                   <div className="owl-item cloned" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-2.jpg"
                         className="testimonial-img"
                         alt=""
@@ -868,7 +868,7 @@ Clients Section
                   </div>
                   <div className="owl-item cloned" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-3.jpg"
                         className="testimonial-img"
                         alt=""
@@ -886,7 +886,7 @@ Clients Section
                   </div>
                   <div className="owl-item cloned" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-4.jpg"
                         className="testimonial-img"
                         alt=""
@@ -903,7 +903,7 @@ Clients Section
                   </div>
                   <div className="owl-item" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-1.jpg"
                         className="testimonial-img"
                         alt=""
@@ -923,7 +923,7 @@ Clients Section
                   </div>
                   <div className="owl-item" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-5.jpg"
                         className="testimonial-img"
                         alt=""
@@ -946,7 +946,7 @@ Clients Section
                   </div>
                   <div className="owl-item" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-2.jpg"
                         className="testimonial-img"
                         alt=""
@@ -963,7 +963,7 @@ Clients Section
                   </div>
                   <div className="owl-item" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-3.jpg"
                         className="testimonial-img"
                         alt=""
@@ -981,7 +981,8 @@ Clients Section
                   </div>
                   <div className="owl-item active" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
+
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-4.jpg"
                         className="testimonial-img"
                         alt=""
@@ -998,7 +999,7 @@ Clients Section
                   </div>
                   <div className="owl-item cloned" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-1.jpg"
                         className="testimonial-img"
                         alt=""
@@ -1018,7 +1019,7 @@ Clients Section
                   </div>
                   <div className="owl-item cloned" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-5.jpg"
                         className="testimonial-img"
                         alt=""
@@ -1041,7 +1042,7 @@ Clients Section
                   </div>
                   <div className="owl-item cloned" style={{ width: 730 }}>
                     <div className="testimonial-item">
-                      <img
+                      <Image
                         src="./Techvio Chats _ Software Company and Digitization Agency_files/testimonial-2.jpg"
                         className="testimonial-img"
                         alt=""
@@ -1060,10 +1061,10 @@ Clients Section
               </div>
               <div className="owl-nav disabled">
                 <button type="button" role="presentation" className="owl-prev">
-                  <span aria-label="Previous">‹</span>
+                  <span aria-label="Previous"></span>
                 </button>
                 <button type="button" role="presentation" className="owl-next">
-                  <span aria-label="Next">›</span>
+                  <span aria-label="Next"></span>
                 </button>
               </div>
               <div className="owl-dots">
@@ -1107,7 +1108,7 @@ Team Section
             style={{ visibility: "visible", animationName: "fadeInUp" }}
           >
             <div className="member">
-              <img
+              <Image
                 height={220}
                 src="./Techvio Chats _ Software Company and Digitization Agency_files/team-1.jpg"
                 className="img-fluid"
@@ -1145,7 +1146,7 @@ Team Section
             }}
           >
             <div className="member">
-              <img
+              <Image
                 src="./Techvio Chats _ Software Company and Digitization Agency_files/team-2.jpg"
                 className="img-fluid"
                 alt=""
@@ -1182,7 +1183,7 @@ Team Section
             }}
           >
             <div className="member">
-              <img
+              <Image
                 style={{ minHeight: 80, width: 235 }}
                 src="./Techvio Chats _ Software Company and Digitization Agency_files/team-3.jpg"
                 className="img-fluid"
@@ -1220,7 +1221,7 @@ Team Section
             }}
           >
             <div className="member">
-              <img
+              <Image
                 src="./Techvio Chats _ Software Company and Digitization Agency_files/team-4.jpg"
                 className="img-fluid"
                 alt=""
@@ -1254,7 +1255,7 @@ Team Section
             style={{ visibility: "visible", animationName: "fadeInUp" }}
           >
             <div className="member">
-              <img
+              <Image
                 height={220}
                 src="./Techvio Chats _ Software Company and Digitization Agency_files/team-5.jpg"
                 className="img-fluid"
@@ -1292,7 +1293,7 @@ Team Section
             }}
           >
             <div className="member">
-              <img
+              <Image
                 src="./Techvio Chats _ Software Company and Digitization Agency_files/team-6.jpg"
                 className="img-fluid"
                 alt=""
@@ -1329,7 +1330,7 @@ Team Section
             }}
           >
             <div className="member">
-              <img
+              <Image
                 src="./Techvio Chats _ Software Company and Digitization Agency_files/team-7.jpg"
                 className="img-fluid"
                 alt=""
@@ -1366,7 +1367,7 @@ Team Section
             }}
           >
             <div className="member">
-              <img
+              <Image
                 src="./Techvio Chats _ Software Company and Digitization Agency_files/team-8.jpg"
                 className="img-fluid"
                 alt=""
@@ -1420,140 +1421,140 @@ Clients Section
               }}
             >
               <div className="owl-item cloned" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-3.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-4.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-5.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-6.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-7.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-8.png"
                   alt=""
                 />
               </div>
               <div className="owl-item" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-1.png"
                   alt=""
                 />
               </div>
               <div className="owl-item" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-2.png"
                   alt=""
                 />
               </div>
               <div className="owl-item" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-3.png"
                   alt=""
                 />
               </div>
               <div className="owl-item" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-4.png"
                   alt=""
                 />
               </div>
               <div className="owl-item" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-5.png"
                   alt=""
                 />
               </div>
               <div className="owl-item" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-6.png"
                   alt=""
                 />
               </div>
               <div className="owl-item active" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-7.png"
                   alt=""
                 />
               </div>
               <div className="owl-item active" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-8.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned active" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-1.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned active" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-2.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned active" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-3.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned active" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-4.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-5.png"
                   alt=""
                 />
               </div>
               <div className="owl-item cloned" style={{ width: 185 }}>
-                <img
+                <Image
                   style={{ height: 80 }}
                   src="./Techvio Chats _ Software Company and Digitization Agency_files/client-6.png"
                   alt=""
@@ -1830,32 +1831,32 @@ Frequently Asked Questions Section
               <div className="col-sm-6">
                 <div className="footer-info">
                   {/* <h3>Rapid</h3> */}
-                  <img
+                  <Image
                     height={65}
                     width={140}
                     src="./Techvio Chats _ Software Company and Digitization Agency_files/logo.png"
                     alt=""
-                    srcSet=""
+                    
                   />{" "}
                   <br />
                   <br />
-                  <img
+                  <Image
                     height={50}
                     src="./Techvio Chats _ Software Company and Digitization Agency_files/incubation.jpg"
                     alt=""
                   />{" "}
                   <br />{" "}
-                  <img
+                  <Image
                     height={50}
                     src="./Techvio Chats _ Software Company and Digitization Agency_files/PITB.png"
                     alt=""
                   />
-                  <img
+                  <Image
                     height={50}
                     src="./Techvio Chats _ Software Company and Digitization Agency_files/nep.png"
                     alt=""
                   />
-                  <img
+                  <Image
                     height={50}
                     src="./Techvio Chats _ Software Company and Digitization Agency_files/nic.png"
                     alt=""
@@ -2062,10 +2063,9 @@ Frequently Asked Questions Section
   <div id="lightbox" className="lightbox" style={{ display: "none" }}>
     <div className="lb-outerContainer">
       <div className="lb-container">
-        <img
-          className="lb-image"
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        />
+        <Image
+                className="lb-image"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt={""}        />
         <div className="lb-nav">
           <a className="lb-prev" href="https://techviochats.vercel.app/" />
           <a className="lb-next" href="https://techviochats.vercel.app/" />

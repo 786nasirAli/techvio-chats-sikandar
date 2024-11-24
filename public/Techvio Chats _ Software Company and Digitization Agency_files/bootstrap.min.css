@@ -2180,7 +2180,7 @@ textarea.form-control {
 .was-validated .form-control:valid {
     border-color: #28a745;
     padding-right: calc(1.5em + .75rem);
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos viewBox=&apos0 0 8 8&apos%3e%3cpath fill=&apos%2328a745&apos d=&aposM2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z&apos/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-position: center right calc(.375em + .1875rem);
     background-size: calc(.75em + .375rem) calc(.75em + .375rem)
@@ -2209,7 +2209,7 @@ textarea.form-control.is-valid {
 .was-validated .custom-select:valid {
     border-color: #28a745;
     padding-right: calc((1em + .75rem) * 3 / 4 + 1.75rem);
-    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem)
+    background: url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos viewBox=&apos0 0 4 5&apos%3e%3cpath fill=&apos%23343a40&apos d=&aposM2 0L0 2h4zm0 5L0 3h4z&apos/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos viewBox=&apos0 0 8 8&apos%3e%3cpath fill=&apos%2328a745&apos d=&aposM2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z&apos/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem)
 }
 
 .custom-select.is-valid:focus,
@@ -2322,7 +2322,7 @@ textarea.form-control.is-valid {
 .was-validated .form-control:invalid {
     border-color: #dc3545;
     padding-right: calc(1.5em + .75rem);
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E");
+    background-image: url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos fill=&apos%23dc3545&apos viewBox=&apos-2 -2 7 7&apos%3e%3cpath stroke=&apos%23dc3545&apos d=&aposM0 0l3 3m0-3L0 3&apos/%3e%3ccircle r=&apos.5&apos/%3e%3ccircle cx=&apos3&apos r=&apos.5&apos/%3e%3ccircle cy=&apos3&apos r=&apos.5&apos/%3e%3ccircle cx=&apos3&apos cy=&apos3&apos r=&apos.5&apos/%3e%3c/svg%3E");
     background-repeat: no-repeat;
     background-position: center right calc(.375em + .1875rem);
     background-size: calc(.75em + .375rem) calc(.75em + .375rem)
@@ -2351,7 +2351,7 @@ textarea.form-control.is-invalid {
 .was-validated .custom-select:invalid {
     border-color: #dc3545;
     padding-right: calc((1em + .75rem) * 3 / 4 + 1.75rem);
-    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem)
+    background: url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos viewBox=&apos0 0 4 5&apos%3e%3cpath fill=&apos%23343a40&apos d=&aposM2 0L0 2h4zm0 5L0 3h4z&apos/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos fill=&apos%23dc3545&apos viewBox=&apos-2 -2 7 7&apos%3e%3cpath stroke=&apos%23dc3545&apos d=&aposM0 0l3 3m0-3L0 3&apos/%3e%3ccircle r=&apos.5&apos/%3e%3ccircle cx=&apos3&apos r=&apos.5&apos/%3e%3ccircle cy=&apos3&apos r=&apos.5&apos/%3e%3ccircle cx=&apos3&apos cy=&apos3&apos r=&apos.5&apos/%3e%3c/svg%3E") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem)
 }
 
 .custom-select.is-invalid:focus,
@@ -3897,7 +3897,7 @@ input[type=submit].btn-block {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos viewBox=&apos0 0 8 8&apos%3e%3cpath fill=&apos%23fff&apos d=&aposM6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z&apos/%3e%3c/svg%3e")
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
@@ -3906,7 +3906,7 @@ input[type=submit].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos viewBox=&apos0 0 4 4&apos%3e%3cpath stroke=&apos%23fff&apos d=&aposM0 2h4&apos/%3e%3c/svg%3e")
 }
 
 .custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before {
@@ -3922,7 +3922,7 @@ input[type=submit].btn-block {
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos viewBox=&apos-4 -4 8 8&apos%3e%3ccircle r=&apos3&apos fill=&apos%23fff&apos/%3e%3c/svg%3e")
 }
 
 .custom-radio .custom-control-input:disabled:checked~.custom-control-label::before {
@@ -3978,7 +3978,7 @@ input[type=submit].btn-block {
     line-height: 1.5;
     color: #495057;
     vertical-align: middle;
-    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px;
+    background: url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos viewBox=&apos0 0 4 5&apos%3e%3cpath fill=&apos%23343a40&apos d=&aposM2 0L0 2h4zm0 5L0 3h4z&apos/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px;
     background-color: #fff;
     border: 1px solid #ced4da;
     border-radius: .25rem;
@@ -4710,7 +4710,7 @@ input[type=submit].btn-block {
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg viewBox=&apos0 0 30 30&apos xmlns=&aposhttp://www.w3.org/2000/svg&apos%3e%3cpath stroke=&aposrgba(0, 0, 0, 0.5)&apos stroke-width=&apos2&apos stroke-linecap=&aposround&apos stroke-miterlimit=&apos10&apos d=&aposM4 7h22M4 15h22M4 23h22&apos/%3e%3c/svg%3e")
 }
 
 .navbar-light .navbar-text {
@@ -4761,7 +4761,7 @@ input[type=submit].btn-block {
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg viewBox=&apos0 0 30 30&apos xmlns=&aposhttp://www.w3.org/2000/svg&apos%3e%3cpath stroke=&aposrgba(255, 255, 255, 0.5)&apos stroke-width=&apos2&apos stroke-linecap=&aposround&apos stroke-miterlimit=&apos10&apos d=&aposM4 7h22M4 15h22M4 23h22&apos/%3e%3c/svg%3e")
 }
 
 .navbar-dark .navbar-text {
@@ -6638,11 +6638,11 @@ a.close.disabled {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos fill=&apos%23fff&apos viewBox=&apos0 0 8 8&apos%3e%3cpath d=&aposM5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z&apos/%3e%3c/svg%3e")
 }
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg xmlns=&aposhttp://www.w3.org/2000/svg&apos fill=&apos%23fff&apos viewBox=&apos0 0 8 8&apos%3e%3cpath d=&aposM2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z&apos/%3e%3c/svg%3e")
 }
 
 .carousel-indicators {
